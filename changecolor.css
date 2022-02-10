@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main {
+    
+    height: 10rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem;
+}
+
+.color {
+    background-color: #222222;
+    color: white;
+    width: 25rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+.click {
+    border: none;
+    width: 10rem;
+    margin-top: 2rem;
+    height: 4rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+    cursor: pointer;
+    color: ;
+}
+
